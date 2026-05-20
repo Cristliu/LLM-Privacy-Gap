@@ -1,0 +1,71 @@
+# Few-Shot Examples for LLM Privacy Relevance Filter (Compact Version)
+# 10 examples: 5 Relevant + 5 Not Relevant (emphasizing subreddit-specific relevance)
+
+## Example 1: RELEVANT - ChatGPT Data Training
+**Subreddit**: r/ChatGPT
+**Title**: Does ChatGPT use my conversations to train models?
+**Selftext**: I'm worried my conversations with ChatGPT might be used to train OpenAI's models. I found the opt-out setting but not sure if it actually works. Has anyone confirmed that disabling "Chat History & Training" actually prevents data from being used?
+**Label**: 1 | **Reason**: Directly discusses ChatGPT's data training practices - specific to this product.
+
+---
+## Example 2: NOT RELEVANT - Generic AI Discussion
+**Subreddit**: r/ChatGPT
+**Title**: Worried about AI privacy in general
+**Selftext**: With all these AI tools coming out, I'm worried about privacy. What do you all think about AI and data collection? Is it safe to use any of these?
+**Label**: 0 | **Reason**: Generic AI privacy concern, doesn't specifically discuss ChatGPT's practices.
+
+---
+## Example 3: RELEVANT - Claude Data Deletion
+**Subreddit**: r/ClaudeAI
+**Title**: How to delete all my Claude conversation history?
+**Selftext**: I want to remove all my chat history from Claude. I've shared some sensitive work documents and now I'm concerned about data stored indefinitely. Does Anthropic actually delete data when requested?
+**Label**: 1 | **Reason**: Specifically asks about Claude's data deletion - relevant to this subreddit's product.
+
+---
+## Example 4: NOT RELEVANT - Content Safety (NOT Privacy)
+**Subreddit**: r/ClaudeAI
+**Title**: Why won't Claude help me with my horror novel?
+**Selftext**: Claude keeps refusing to write violent scenes for my creative writing. This is frustrating. How can I get around these content restrictions?
+**Label**: 0 | **Reason**: Content moderation complaint, NOT data privacy issue.
+
+---
+## Example 5: RELEVANT - Enterprise Privacy Gemini
+**Subreddit**: r/GeminiAI
+**Title**: Using Gemini at work - is company data safe?
+**Selftext**: Our company is considering Gemini for Workspace. Legal team is worried about confidential client info. Does Google use Workspace data for training? What's the data retention policy for enterprise accounts?
+**Label**: 1 | **Reason**: Specific questions about Gemini's enterprise data handling policies.
+
+---
+## Example 6: NOT RELEVANT - Asking About Wrong Product
+**Subreddit**: r/ChatGPT
+**Title**: Privacy comparison between AI assistants
+**Selftext**: I'm trying to decide between Claude and Gemini based on privacy. Which one has better data practices? I heard Anthropic doesn't train on user data.
+**Label**: 0 | **Reason**: Discussing Claude and Gemini privacy in ChatGPT subreddit - wrong product focus.
+
+---
+## Example 7: RELEVANT - Data Breach
+**Subreddit**: r/ChatGPT
+**Title**: Saw someone else's chat history - security bug?
+**Selftext**: This morning I briefly saw another user's conversation titles in my ChatGPT sidebar before they disappeared. Has anyone else experienced this? I'm worried my conversations might be visible to others too. Should I report to OpenAI?
+**Label**: 1 | **Reason**: Reports potential ChatGPT data exposure - serious privacy issue specific to this product.
+
+---
+## Example 8: NOT RELEVANT - Network Security (NOT Privacy)
+**Subreddit**: r/Bard
+**Title**: Is it safe to use Bard on public WiFi?
+**Selftext**: Should I worry about man-in-the-middle attacks when using Bard at a coffee shop? Do I need a VPN or firewall?
+**Label**: 0 | **Reason**: Network security question - NOT about how Google Bard handles user data.
+
+---
+## Example 9: RELEVANT - DeepSeek Data Sovereignty
+**Subreddit**: r/deepseek
+**Title**: Where does DeepSeek store user data?
+**Selftext**: I'm in Europe and concerned about GDPR compliance. Does DeepSeek store conversation data in China? What happens to my data under Chinese data laws? Has anyone found information about their data residency?
+**Label**: 1 | **Reason**: Specific questions about DeepSeek's data storage location and compliance.
+
+---
+## Example 10: NOT RELEVANT - General Usage Tips
+**Subreddit**: r/ChatGPT
+**Title**: Best prompts for coding assistance?
+**Selftext**: I want better code responses from ChatGPT. What prompt templates work well for programming tasks? Should I use system prompts or just regular messages?
+**Label**: 0 | **Reason**: Prompt engineering tips - no privacy concern about ChatGPT data handling.

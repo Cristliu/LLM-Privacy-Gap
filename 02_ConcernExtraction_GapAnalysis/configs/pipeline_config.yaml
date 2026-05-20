@@ -1,0 +1,109 @@
+# Gap Analysis Pipeline Configuration
+# Version: 1.1 (with concurrency support)
+
+# LLM Settings
+llm:
+  model: "gpt-5"
+  #model: "gemini-3-pro-preview"
+  temperature: 0  # Set to 0 for reproducibility
+  max_tokens: 999999
+  timeout: 120  # Increased timeout for stability
+  base_url: "XXXXXXXXXXXXX"
+  api_key: "XXXXXXXXXXXXXXX"
+  # Concurrency settings
+  max_concurrent: 70  # Maximum parallel API requests
+  max_retries: 3
+  retry_delay: 2.0
+  # Pricing (for cost estimation)
+  input_price_per_1k: 0.001
+  output_price_per_1k: 0.008
+
+# Issue Aggregation (topic-based, deterministic)
+aggregation:
+  # Method: direct grouping by global_topic from 29-topic taxonomy
+  # No clustering needed - LLM already distinguishes concerns during extraction
+  # This is more explainable and reproducible than embedding-based clustering
+  method: "topic_based"  # Options: "topic_based" (default)
+  
+  # Representative selection: pick highest confidence issue per topic
+  representative_strategy: "highest_confidence"
+  
+  # Minimum issues required to form a valid topic group
+  min_issues_per_topic: 1
+
+# Legacy clustering settings (not used, kept for reference)
+# clustering:
+#   embedding_model: "Qwen/Qwen3-Embedding-8B"  # Requires GPU
+#   distance_threshold: 0.7
+#   min_cluster_size: 1
+#   linkage: "average"
+
+# Gap Detection Thresholds
+gap_detection:
+  min_confidence: 0.3
+  severity_threshold: 4
+  include_low_confidence: false
+  allow_new_gap_types: true
+
+# Provider Configuration
+providers:
+  - name: "chatgpt"
+    subreddits: ["ChatGPT", "OpenAI"]
+    policy_dirs: ["OpenAI_PP", "OpenAI_EU_PP"]
+    supplemental_dirs: ["OpenAI"]
+    
+  - name: "claude"
+    subreddits: ["ClaudeAI"]
+    policy_dirs: ["Anthropic_PP"]
+    supplemental_dirs: ["Anthropic"]
+    
+  - name: "gemini"
+    subreddits: ["GeminiAI", "Bard"]
+    policy_dirs: ["Gemini"]
+    supplemental_dirs: ["Google"]
+    
+  - name: "grok"
+    subreddits: ["Grok"]
+    policy_dirs: ["xAI_PP"]
+    supplemental_dirs: ["xAI"]
+    
+  - name: "deepseek"
+    subreddits: ["deepseek"]
+    policy_dirs: ["DeepSeek_PP"]
+    supplemental_dirs: []
+    
+
+# File Paths (relative to 02_Gap_Analysis/)
+paths:
+  reddit_data: "../01_Data_Collection/02_Outputs/Crawled_Reddit"
+  policy_base: "../01_Data_Collection/02_Outputs/Policies"
+  policy_main: "privacy_policies"
+  policy_supplemental: "supplemental_documents"
+  output_base: "./02_Outputs"
+  prompts: "./01_Prompts"
+  logs: "./03_Logs"
+
+# Output Settings
+output:
+  formats:
+    - json
+    - csv
+    - markdown
+  include_timestamp: true
+  pretty_print: true
+
+# Processing Settings
+processing:
+  batch_size: 10
+  save_checkpoint_every: 50
+  max_retries: 3
+  retry_delay: 5
+
+# Logging
+logging:
+  level: "INFO"
+  console: true
+  file: true
+
+# Random Seed (for reproducibility)
+seed: 42

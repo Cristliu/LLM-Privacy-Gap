@@ -1,0 +1,3933 @@
+{
+  "metadata": {
+    "experiment": "Ground-Truth",
+    "source": "anonymized_ground_truth_flat_records",
+    "granularity": "concern-level",
+    "total_concerns": 295,
+    "privacy_transform": "ids_anonymized_textual_evidence_removed_confidence_removed"
+  },
+  "concerns": [
+    {
+      "concern_instance_id": "GT_CONCERN_000001",
+      "record_id": "RECORD_000001",
+      "sample_id": "GT_SAMPLE_000001",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000001",
+      "record_type": "post",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000002",
+      "record_id": "RECORD_000001",
+      "sample_id": "GT_SAMPLE_000001",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000001",
+      "record_type": "post",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000003",
+      "record_id": "RECORD_000002",
+      "sample_id": "GT_SAMPLE_000002",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000001",
+      "record_type": "comment",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000004",
+      "record_id": "RECORD_000005",
+      "sample_id": "GT_SAMPLE_000005",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000002",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000005",
+      "record_id": "RECORD_000006",
+      "sample_id": "GT_SAMPLE_000006",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000003",
+      "record_type": "post",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000006",
+      "record_id": "RECORD_000008",
+      "sample_id": "GT_SAMPLE_000008",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000005",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000007",
+      "record_id": "RECORD_000009",
+      "sample_id": "GT_SAMPLE_000009",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000006",
+      "record_type": "post",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000008",
+      "record_id": "RECORD_000010",
+      "sample_id": "GT_SAMPLE_000010",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "post",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000009",
+      "record_id": "RECORD_000012",
+      "sample_id": "GT_SAMPLE_000012",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000010",
+      "record_id": "RECORD_000016",
+      "sample_id": "GT_SAMPLE_000016",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_JURISDICTION_UNCLEAR"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000011",
+      "record_id": "RECORD_000016",
+      "sample_id": "GT_SAMPLE_000016",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000012",
+      "record_id": "RECORD_000016",
+      "sample_id": "GT_SAMPLE_000016",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000013",
+      "record_id": "RECORD_000018",
+      "sample_id": "GT_SAMPLE_000018",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000008",
+      "record_type": "post",
+      "topic": "A4.2_PRIVACY_PLUGIN_EXTENSION_ACCESS",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000014",
+      "record_id": "RECORD_000019",
+      "sample_id": "GT_SAMPLE_000019",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000008",
+      "record_type": "comment",
+      "topic": "A4.2_PRIVACY_PLUGIN_EXTENSION_ACCESS",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000015",
+      "record_id": "RECORD_000020",
+      "sample_id": "GT_SAMPLE_000020",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000008",
+      "record_type": "comment",
+      "topic": "A4.2_PRIVACY_PLUGIN_EXTENSION_ACCESS",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000016",
+      "record_id": "RECORD_000022",
+      "sample_id": "GT_SAMPLE_000022",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000017",
+      "record_id": "RECORD_000027",
+      "sample_id": "GT_SAMPLE_000027",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000018",
+      "record_id": "RECORD_000028",
+      "sample_id": "GT_SAMPLE_000028",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "topic": "D1.2_PRIVACY_VULNERABLE_POPULATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_VULNERABLE_GROUP_NEGLECTED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000019",
+      "record_id": "RECORD_000028",
+      "sample_id": "GT_SAMPLE_000028",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_VULNERABLE_GROUP_NEGLECTED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000020",
+      "record_id": "RECORD_000033",
+      "sample_id": "GT_SAMPLE_000033",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000021",
+      "record_id": "RECORD_000033",
+      "sample_id": "GT_SAMPLE_000033",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000022",
+      "record_id": "RECORD_000035",
+      "sample_id": "GT_SAMPLE_000035",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000010",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000023",
+      "record_id": "RECORD_000036",
+      "sample_id": "GT_SAMPLE_000036",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000010",
+      "record_type": "comment",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000024",
+      "record_id": "RECORD_000037",
+      "sample_id": "GT_SAMPLE_000037",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000010",
+      "record_type": "comment",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000025",
+      "record_id": "RECORD_000042",
+      "sample_id": "GT_SAMPLE_000042",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000011",
+      "record_type": "post",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000026",
+      "record_id": "RECORD_000042",
+      "sample_id": "GT_SAMPLE_000042",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000011",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000027",
+      "record_id": "RECORD_000045",
+      "sample_id": "GT_SAMPLE_000045",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000011",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000028",
+      "record_id": "RECORD_000046",
+      "sample_id": "GT_SAMPLE_000046",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000011",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000029",
+      "record_id": "RECORD_000047",
+      "sample_id": "GT_SAMPLE_000047",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000012",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000030",
+      "record_id": "RECORD_000049",
+      "sample_id": "GT_SAMPLE_000049",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000012",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000031",
+      "record_id": "RECORD_000050",
+      "sample_id": "GT_SAMPLE_000050",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "post",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000032",
+      "record_id": "RECORD_000051",
+      "sample_id": "GT_SAMPLE_000051",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000033",
+      "record_id": "RECORD_000051",
+      "sample_id": "GT_SAMPLE_000051",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000034",
+      "record_id": "RECORD_000051",
+      "sample_id": "GT_SAMPLE_000051",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000035",
+      "record_id": "RECORD_000052",
+      "sample_id": "GT_SAMPLE_000052",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000036",
+      "record_id": "RECORD_000053",
+      "sample_id": "GT_SAMPLE_000053",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000037",
+      "record_id": "RECORD_000054",
+      "sample_id": "GT_SAMPLE_000054",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000038",
+      "record_id": "RECORD_000054",
+      "sample_id": "GT_SAMPLE_000054",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000039",
+      "record_id": "RECORD_000056",
+      "sample_id": "GT_SAMPLE_000056",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000014",
+      "record_type": "comment",
+      "topic": "A2.1_PRIVACY_SERVICE_PROVISION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000040",
+      "record_id": "RECORD_000056",
+      "sample_id": "GT_SAMPLE_000056",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000014",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000041",
+      "record_id": "RECORD_000060",
+      "sample_id": "GT_SAMPLE_000060",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000015",
+      "record_type": "post",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000042",
+      "record_id": "RECORD_000060",
+      "sample_id": "GT_SAMPLE_000060",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000015",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000043",
+      "record_id": "RECORD_000060",
+      "sample_id": "GT_SAMPLE_000060",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000015",
+      "record_type": "post",
+      "topic": "B1.4_PRIVACY_POLICY_CHANGE_NOTIFICATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000044",
+      "record_id": "RECORD_000060",
+      "sample_id": "GT_SAMPLE_000060",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000015",
+      "record_type": "post",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000045",
+      "record_id": "RECORD_000060",
+      "sample_id": "GT_SAMPLE_000060",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000015",
+      "record_type": "post",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000046",
+      "record_id": "RECORD_000061",
+      "sample_id": "GT_SAMPLE_000061",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000015",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000047",
+      "record_id": "RECORD_000062",
+      "sample_id": "GT_SAMPLE_000062",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000016",
+      "record_type": "post",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000048",
+      "record_id": "RECORD_000063",
+      "sample_id": "GT_SAMPLE_000063",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000016",
+      "record_type": "comment",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000049",
+      "record_id": "RECORD_000069",
+      "sample_id": "GT_SAMPLE_000069",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000017",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000050",
+      "record_id": "RECORD_000069",
+      "sample_id": "GT_SAMPLE_000069",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000017",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000051",
+      "record_id": "RECORD_000069",
+      "sample_id": "GT_SAMPLE_000069",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000017",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000052",
+      "record_id": "RECORD_000073",
+      "sample_id": "GT_SAMPLE_000073",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000018",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000053",
+      "record_id": "RECORD_000074",
+      "sample_id": "GT_SAMPLE_000074",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000018",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000054",
+      "record_id": "RECORD_000075",
+      "sample_id": "GT_SAMPLE_000075",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000019",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000055",
+      "record_id": "RECORD_000077",
+      "sample_id": "GT_SAMPLE_000077",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000020",
+      "record_type": "comment",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000056",
+      "record_id": "RECORD_000078",
+      "sample_id": "GT_SAMPLE_000078",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000021",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000057",
+      "record_id": "RECORD_000079",
+      "sample_id": "GT_SAMPLE_000079",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000022",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000058",
+      "record_id": "RECORD_000082",
+      "sample_id": "GT_SAMPLE_000082",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000022",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000059",
+      "record_id": "RECORD_000087",
+      "sample_id": "GT_SAMPLE_000087",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000060",
+      "record_id": "RECORD_000090",
+      "sample_id": "GT_SAMPLE_000090",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000061",
+      "record_id": "RECORD_000090",
+      "sample_id": "GT_SAMPLE_000090",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000062",
+      "record_id": "RECORD_000097",
+      "sample_id": "GT_SAMPLE_000097",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000024",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000063",
+      "record_id": "RECORD_000099",
+      "sample_id": "GT_SAMPLE_000099",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000026",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000064",
+      "record_id": "RECORD_000101",
+      "sample_id": "GT_SAMPLE_000101",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000026",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000065",
+      "record_id": "RECORD_000102",
+      "sample_id": "GT_SAMPLE_000102",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000027",
+      "record_type": "post",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000066",
+      "record_id": "RECORD_000103",
+      "sample_id": "GT_SAMPLE_000103",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000027",
+      "record_type": "comment",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000067",
+      "record_id": "RECORD_000105",
+      "sample_id": "GT_SAMPLE_000105",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000028",
+      "record_type": "post",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000068",
+      "record_id": "RECORD_000106",
+      "sample_id": "GT_SAMPLE_000106",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000028",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000069",
+      "record_id": "RECORD_000108",
+      "sample_id": "GT_SAMPLE_000108",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000029",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000070",
+      "record_id": "RECORD_000109",
+      "sample_id": "GT_SAMPLE_000109",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000029",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000071",
+      "record_id": "RECORD_000109",
+      "sample_id": "GT_SAMPLE_000109",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000029",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000072",
+      "record_id": "RECORD_000111",
+      "sample_id": "GT_SAMPLE_000111",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000030",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000073",
+      "record_id": "RECORD_000112",
+      "sample_id": "GT_SAMPLE_000112",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "post",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000074",
+      "record_id": "RECORD_000112",
+      "sample_id": "GT_SAMPLE_000112",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000075",
+      "record_id": "RECORD_000113",
+      "sample_id": "GT_SAMPLE_000113",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000076",
+      "record_id": "RECORD_000114",
+      "sample_id": "GT_SAMPLE_000114",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000077",
+      "record_id": "RECORD_000116",
+      "sample_id": "GT_SAMPLE_000116",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000078",
+      "record_id": "RECORD_000116",
+      "sample_id": "GT_SAMPLE_000116",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000079",
+      "record_id": "RECORD_000117",
+      "sample_id": "GT_SAMPLE_000117",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000080",
+      "record_id": "RECORD_000119",
+      "sample_id": "GT_SAMPLE_000119",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000081",
+      "record_id": "RECORD_000120",
+      "sample_id": "GT_SAMPLE_000120",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000082",
+      "record_id": "RECORD_000124",
+      "sample_id": "GT_SAMPLE_000124",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000032",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000083",
+      "record_id": "RECORD_000125",
+      "sample_id": "GT_SAMPLE_000125",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000033",
+      "record_type": "post",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000084",
+      "record_id": "RECORD_000125",
+      "sample_id": "GT_SAMPLE_000125",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000033",
+      "record_type": "post",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000085",
+      "record_id": "RECORD_000128",
+      "sample_id": "GT_SAMPLE_000128",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000033",
+      "record_type": "comment",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000086",
+      "record_id": "RECORD_000130",
+      "sample_id": "GT_SAMPLE_000130",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000034",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000087",
+      "record_id": "RECORD_000131",
+      "sample_id": "GT_SAMPLE_000131",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000034",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000088",
+      "record_id": "RECORD_000132",
+      "sample_id": "GT_SAMPLE_000132",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000034",
+      "record_type": "comment",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000089",
+      "record_id": "RECORD_000132",
+      "sample_id": "GT_SAMPLE_000132",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000034",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000090",
+      "record_id": "RECORD_000134",
+      "sample_id": "GT_SAMPLE_000134",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000035",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000091",
+      "record_id": "RECORD_000135",
+      "sample_id": "GT_SAMPLE_000135",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000092",
+      "record_id": "RECORD_000137",
+      "sample_id": "GT_SAMPLE_000137",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000093",
+      "record_id": "RECORD_000138",
+      "sample_id": "GT_SAMPLE_000138",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000094",
+      "record_id": "RECORD_000139",
+      "sample_id": "GT_SAMPLE_000139",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000095",
+      "record_id": "RECORD_000141",
+      "sample_id": "GT_SAMPLE_000141",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000096",
+      "record_id": "RECORD_000143",
+      "sample_id": "GT_SAMPLE_000143",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000037",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000097",
+      "record_id": "RECORD_000143",
+      "sample_id": "GT_SAMPLE_000143",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000037",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000098",
+      "record_id": "RECORD_000144",
+      "sample_id": "GT_SAMPLE_000144",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000037",
+      "record_type": "comment",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000099",
+      "record_id": "RECORD_000144",
+      "sample_id": "GT_SAMPLE_000144",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000037",
+      "record_type": "comment",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000100",
+      "record_id": "RECORD_000146",
+      "sample_id": "GT_SAMPLE_000146",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000037",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000101",
+      "record_id": "RECORD_000147",
+      "sample_id": "GT_SAMPLE_000147",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000038",
+      "record_type": "post",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000102",
+      "record_id": "RECORD_000147",
+      "sample_id": "GT_SAMPLE_000147",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000038",
+      "record_type": "post",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000103",
+      "record_id": "RECORD_000148",
+      "sample_id": "GT_SAMPLE_000148",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000039",
+      "record_type": "post",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000104",
+      "record_id": "RECORD_000148",
+      "sample_id": "GT_SAMPLE_000148",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000039",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000105",
+      "record_id": "RECORD_000148",
+      "sample_id": "GT_SAMPLE_000148",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000039",
+      "record_type": "post",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000106",
+      "record_id": "RECORD_000152",
+      "sample_id": "GT_SAMPLE_000152",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "post",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000107",
+      "record_id": "RECORD_000152",
+      "sample_id": "GT_SAMPLE_000152",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "post",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000108",
+      "record_id": "RECORD_000152",
+      "sample_id": "GT_SAMPLE_000152",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "post",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000109",
+      "record_id": "RECORD_000152",
+      "sample_id": "GT_SAMPLE_000152",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000110",
+      "record_id": "RECORD_000154",
+      "sample_id": "GT_SAMPLE_000154",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "comment",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000111",
+      "record_id": "RECORD_000156",
+      "sample_id": "GT_SAMPLE_000156",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000112",
+      "record_id": "RECORD_000157",
+      "sample_id": "GT_SAMPLE_000157",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000113",
+      "record_id": "RECORD_000158",
+      "sample_id": "GT_SAMPLE_000158",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "post",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000114",
+      "record_id": "RECORD_000161",
+      "sample_id": "GT_SAMPLE_000161",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000115",
+      "record_id": "RECORD_000165",
+      "sample_id": "GT_SAMPLE_000165",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000116",
+      "record_id": "RECORD_000166",
+      "sample_id": "GT_SAMPLE_000166",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000117",
+      "record_id": "RECORD_000167",
+      "sample_id": "GT_SAMPLE_000167",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000118",
+      "record_id": "RECORD_000169",
+      "sample_id": "GT_SAMPLE_000169",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000119",
+      "record_id": "RECORD_000173",
+      "sample_id": "GT_SAMPLE_000173",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000120",
+      "record_id": "RECORD_000174",
+      "sample_id": "GT_SAMPLE_000174",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000121",
+      "record_id": "RECORD_000176",
+      "sample_id": "GT_SAMPLE_000176",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000122",
+      "record_id": "RECORD_000177",
+      "sample_id": "GT_SAMPLE_000177",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000123",
+      "record_id": "RECORD_000178",
+      "sample_id": "GT_SAMPLE_000178",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000124",
+      "record_id": "RECORD_000178",
+      "sample_id": "GT_SAMPLE_000178",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000125",
+      "record_id": "RECORD_000180",
+      "sample_id": "GT_SAMPLE_000180",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "post",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000126",
+      "record_id": "RECORD_000181",
+      "sample_id": "GT_SAMPLE_000181",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000127",
+      "record_id": "RECORD_000183",
+      "sample_id": "GT_SAMPLE_000183",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000128",
+      "record_id": "RECORD_000186",
+      "sample_id": "GT_SAMPLE_000186",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000129",
+      "record_id": "RECORD_000186",
+      "sample_id": "GT_SAMPLE_000186",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000130",
+      "record_id": "RECORD_000187",
+      "sample_id": "GT_SAMPLE_000187",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000131",
+      "record_id": "RECORD_000187",
+      "sample_id": "GT_SAMPLE_000187",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000132",
+      "record_id": "RECORD_000188",
+      "sample_id": "GT_SAMPLE_000188",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000043",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000133",
+      "record_id": "RECORD_000188",
+      "sample_id": "GT_SAMPLE_000188",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000043",
+      "record_type": "post",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000134",
+      "record_id": "RECORD_000189",
+      "sample_id": "GT_SAMPLE_000189",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000043",
+      "record_type": "comment",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000135",
+      "record_id": "RECORD_000190",
+      "sample_id": "GT_SAMPLE_000190",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000043",
+      "record_type": "comment",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000136",
+      "record_id": "RECORD_000190",
+      "sample_id": "GT_SAMPLE_000190",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000043",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000137",
+      "record_id": "RECORD_000191",
+      "sample_id": "GT_SAMPLE_000191",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000044",
+      "record_type": "post",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000138",
+      "record_id": "RECORD_000191",
+      "sample_id": "GT_SAMPLE_000191",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000044",
+      "record_type": "post",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000139",
+      "record_id": "RECORD_000192",
+      "sample_id": "GT_SAMPLE_000192",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000044",
+      "record_type": "comment",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000140",
+      "record_id": "RECORD_000193",
+      "sample_id": "GT_SAMPLE_000193",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000044",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000141",
+      "record_id": "RECORD_000195",
+      "sample_id": "GT_SAMPLE_000195",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000045",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000142",
+      "record_id": "RECORD_000196",
+      "sample_id": "GT_SAMPLE_000196",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000046",
+      "record_type": "post",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000143",
+      "record_id": "RECORD_000198",
+      "sample_id": "GT_SAMPLE_000198",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "post",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000144",
+      "record_id": "RECORD_000199",
+      "sample_id": "GT_SAMPLE_000199",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000145",
+      "record_id": "RECORD_000200",
+      "sample_id": "GT_SAMPLE_000200",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000146",
+      "record_id": "RECORD_000201",
+      "sample_id": "GT_SAMPLE_000201",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000147",
+      "record_id": "RECORD_000203",
+      "sample_id": "GT_SAMPLE_000203",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000148",
+      "record_id": "RECORD_000209",
+      "sample_id": "GT_SAMPLE_000209",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000149",
+      "record_id": "RECORD_000210",
+      "sample_id": "GT_SAMPLE_000210",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000150",
+      "record_id": "RECORD_000211",
+      "sample_id": "GT_SAMPLE_000211",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000151",
+      "record_id": "RECORD_000212",
+      "sample_id": "GT_SAMPLE_000212",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000152",
+      "record_id": "RECORD_000216",
+      "sample_id": "GT_SAMPLE_000216",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000153",
+      "record_id": "RECORD_000219",
+      "sample_id": "GT_SAMPLE_000219",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000154",
+      "record_id": "RECORD_000222",
+      "sample_id": "GT_SAMPLE_000222",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000048",
+      "record_type": "comment",
+      "topic": "D2.2_PRIVACY_BREACH_NOTIFICATION",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000155",
+      "record_id": "RECORD_000225",
+      "sample_id": "GT_SAMPLE_000225",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000050",
+      "record_type": "post",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000156",
+      "record_id": "RECORD_000225",
+      "sample_id": "GT_SAMPLE_000225",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000050",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000157",
+      "record_id": "RECORD_000226",
+      "sample_id": "GT_SAMPLE_000226",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000050",
+      "record_type": "comment",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000158",
+      "record_id": "RECORD_000228",
+      "sample_id": "GT_SAMPLE_000228",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000051",
+      "record_type": "post",
+      "topic": "A2.1_PRIVACY_SERVICE_PROVISION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000159",
+      "record_id": "RECORD_000228",
+      "sample_id": "GT_SAMPLE_000228",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000051",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000160",
+      "record_id": "RECORD_000229",
+      "sample_id": "GT_SAMPLE_000229",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000052",
+      "record_type": "post",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000161",
+      "record_id": "RECORD_000231",
+      "sample_id": "GT_SAMPLE_000231",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000052",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000162",
+      "record_id": "RECORD_000231",
+      "sample_id": "GT_SAMPLE_000231",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000052",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000163",
+      "record_id": "RECORD_000232",
+      "sample_id": "GT_SAMPLE_000232",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000164",
+      "record_id": "RECORD_000233",
+      "sample_id": "GT_SAMPLE_000233",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "comment",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000165",
+      "record_id": "RECORD_000234",
+      "sample_id": "GT_SAMPLE_000234",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000166",
+      "record_id": "RECORD_000236",
+      "sample_id": "GT_SAMPLE_000236",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000167",
+      "record_id": "RECORD_000237",
+      "sample_id": "GT_SAMPLE_000237",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000168",
+      "record_id": "RECORD_000239",
+      "sample_id": "GT_SAMPLE_000239",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000054",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000169",
+      "record_id": "RECORD_000243",
+      "sample_id": "GT_SAMPLE_000243",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000054",
+      "record_type": "comment",
+      "topic": "C2.2_PRIVACY_DOWNSTREAM_INTEGRATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000170",
+      "record_id": "RECORD_000246",
+      "sample_id": "GT_SAMPLE_000246",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000056",
+      "record_type": "post",
+      "topic": "A4.2_PRIVACY_PLUGIN_EXTENSION_ACCESS",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000171",
+      "record_id": "RECORD_000255",
+      "sample_id": "GT_SAMPLE_000255",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000060",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000172",
+      "record_id": "RECORD_000257",
+      "sample_id": "GT_SAMPLE_000257",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000060",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000173",
+      "record_id": "RECORD_000259",
+      "sample_id": "GT_SAMPLE_000259",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000062",
+      "record_type": "post",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000174",
+      "record_id": "RECORD_000263",
+      "sample_id": "GT_SAMPLE_000263",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000062",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000175",
+      "record_id": "RECORD_000264",
+      "sample_id": "GT_SAMPLE_000264",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000062",
+      "record_type": "comment",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000176",
+      "record_id": "RECORD_000266",
+      "sample_id": "GT_SAMPLE_000266",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000063",
+      "record_type": "post",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000177",
+      "record_id": "RECORD_000267",
+      "sample_id": "GT_SAMPLE_000267",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000064",
+      "record_type": "post",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000178",
+      "record_id": "RECORD_000268",
+      "sample_id": "GT_SAMPLE_000268",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000064",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000179",
+      "record_id": "RECORD_000269",
+      "sample_id": "GT_SAMPLE_000269",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000064",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000180",
+      "record_id": "RECORD_000270",
+      "sample_id": "GT_SAMPLE_000270",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000064",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000181",
+      "record_id": "RECORD_000272",
+      "sample_id": "GT_SAMPLE_000272",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000065",
+      "record_type": "post",
+      "topic": "A4.2_PRIVACY_PLUGIN_EXTENSION_ACCESS",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000182",
+      "record_id": "RECORD_000274",
+      "sample_id": "GT_SAMPLE_000274",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000066",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000183",
+      "record_id": "RECORD_000274",
+      "sample_id": "GT_SAMPLE_000274",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000066",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000184",
+      "record_id": "RECORD_000276",
+      "sample_id": "GT_SAMPLE_000276",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000068",
+      "record_type": "post",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000185",
+      "record_id": "RECORD_000276",
+      "sample_id": "GT_SAMPLE_000276",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000068",
+      "record_type": "post",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000186",
+      "record_id": "RECORD_000277",
+      "sample_id": "GT_SAMPLE_000277",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000069",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000187",
+      "record_id": "RECORD_000278",
+      "sample_id": "GT_SAMPLE_000278",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000069",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000188",
+      "record_id": "RECORD_000278",
+      "sample_id": "GT_SAMPLE_000278",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000069",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000189",
+      "record_id": "RECORD_000279",
+      "sample_id": "GT_SAMPLE_000279",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000069",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000190",
+      "record_id": "RECORD_000280",
+      "sample_id": "GT_SAMPLE_000280",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000069",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000191",
+      "record_id": "RECORD_000281",
+      "sample_id": "GT_SAMPLE_000281",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000070",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000192",
+      "record_id": "RECORD_000283",
+      "sample_id": "GT_SAMPLE_000283",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000071",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000193",
+      "record_id": "RECORD_000285",
+      "sample_id": "GT_SAMPLE_000285",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000071",
+      "record_type": "comment",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000194",
+      "record_id": "RECORD_000286",
+      "sample_id": "GT_SAMPLE_000286",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000072",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000195",
+      "record_id": "RECORD_000286",
+      "sample_id": "GT_SAMPLE_000286",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000072",
+      "record_type": "post",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000196",
+      "record_id": "RECORD_000286",
+      "sample_id": "GT_SAMPLE_000286",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000072",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000197",
+      "record_id": "RECORD_000288",
+      "sample_id": "GT_SAMPLE_000288",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000074",
+      "record_type": "post",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000198",
+      "record_id": "RECORD_000289",
+      "sample_id": "GT_SAMPLE_000289",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000074",
+      "record_type": "comment",
+      "topic": "C2.2_PRIVACY_DOWNSTREAM_INTEGRATION",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000199",
+      "record_id": "RECORD_000291",
+      "sample_id": "GT_SAMPLE_000291",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "post",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000200",
+      "record_id": "RECORD_000291",
+      "sample_id": "GT_SAMPLE_000291",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000201",
+      "record_id": "RECORD_000295",
+      "sample_id": "GT_SAMPLE_000295",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000202",
+      "record_id": "RECORD_000296",
+      "sample_id": "GT_SAMPLE_000296",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000203",
+      "record_id": "RECORD_000297",
+      "sample_id": "GT_SAMPLE_000297",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000204",
+      "record_id": "RECORD_000298",
+      "sample_id": "GT_SAMPLE_000298",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000076",
+      "record_type": "post",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000205",
+      "record_id": "RECORD_000299",
+      "sample_id": "GT_SAMPLE_000299",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000076",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000206",
+      "record_id": "RECORD_000299",
+      "sample_id": "GT_SAMPLE_000299",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000076",
+      "record_type": "comment",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000207",
+      "record_id": "RECORD_000299",
+      "sample_id": "GT_SAMPLE_000299",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000076",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000208",
+      "record_id": "RECORD_000301",
+      "sample_id": "GT_SAMPLE_000301",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000078",
+      "record_type": "post",
+      "topic": "A2.1_PRIVACY_SERVICE_PROVISION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000209",
+      "record_id": "RECORD_000301",
+      "sample_id": "GT_SAMPLE_000301",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000078",
+      "record_type": "post",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000210",
+      "record_id": "RECORD_000303",
+      "sample_id": "GT_SAMPLE_000303",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000080",
+      "record_type": "post",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000211",
+      "record_id": "RECORD_000304",
+      "sample_id": "GT_SAMPLE_000304",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000081",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000212",
+      "record_id": "RECORD_000305",
+      "sample_id": "GT_SAMPLE_000305",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000081",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000213",
+      "record_id": "RECORD_000307",
+      "sample_id": "GT_SAMPLE_000307",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000081",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000214",
+      "record_id": "RECORD_000309",
+      "sample_id": "GT_SAMPLE_000309",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000081",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000215",
+      "record_id": "RECORD_000311",
+      "sample_id": "GT_SAMPLE_000311",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000083",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000216",
+      "record_id": "RECORD_000312",
+      "sample_id": "GT_SAMPLE_000312",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000083",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000217",
+      "record_id": "RECORD_000314",
+      "sample_id": "GT_SAMPLE_000314",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000083",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000218",
+      "record_id": "RECORD_000315",
+      "sample_id": "GT_SAMPLE_000315",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000084",
+      "record_type": "post",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000219",
+      "record_id": "RECORD_000316",
+      "sample_id": "GT_SAMPLE_000316",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000084",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000220",
+      "record_id": "RECORD_000317",
+      "sample_id": "GT_SAMPLE_000317",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000084",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000221",
+      "record_id": "RECORD_000319",
+      "sample_id": "GT_SAMPLE_000319",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000084",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000222",
+      "record_id": "RECORD_000320",
+      "sample_id": "GT_SAMPLE_000320",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000085",
+      "record_type": "post",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000223",
+      "record_id": "RECORD_000320",
+      "sample_id": "GT_SAMPLE_000320",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000085",
+      "record_type": "post",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000224",
+      "record_id": "RECORD_000323",
+      "sample_id": "GT_SAMPLE_000323",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000085",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000225",
+      "record_id": "RECORD_000327",
+      "sample_id": "GT_SAMPLE_000327",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000226",
+      "record_id": "RECORD_000327",
+      "sample_id": "GT_SAMPLE_000327",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "post",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000227",
+      "record_id": "RECORD_000328",
+      "sample_id": "GT_SAMPLE_000328",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000228",
+      "record_id": "RECORD_000331",
+      "sample_id": "GT_SAMPLE_000331",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "comment",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000229",
+      "record_id": "RECORD_000333",
+      "sample_id": "GT_SAMPLE_000333",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "comment",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000230",
+      "record_id": "RECORD_000333",
+      "sample_id": "GT_SAMPLE_000333",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000231",
+      "record_id": "RECORD_000335",
+      "sample_id": "GT_SAMPLE_000335",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "post",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000232",
+      "record_id": "RECORD_000336",
+      "sample_id": "GT_SAMPLE_000336",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000233",
+      "record_id": "RECORD_000340",
+      "sample_id": "GT_SAMPLE_000340",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000234",
+      "record_id": "RECORD_000341",
+      "sample_id": "GT_SAMPLE_000341",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000235",
+      "record_id": "RECORD_000341",
+      "sample_id": "GT_SAMPLE_000341",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000236",
+      "record_id": "RECORD_000342",
+      "sample_id": "GT_SAMPLE_000342",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000237",
+      "record_id": "RECORD_000346",
+      "sample_id": "GT_SAMPLE_000346",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000238",
+      "record_id": "RECORD_000348",
+      "sample_id": "GT_SAMPLE_000348",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000091",
+      "record_type": "post",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000239",
+      "record_id": "RECORD_000348",
+      "sample_id": "GT_SAMPLE_000348",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000091",
+      "record_type": "post",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000240",
+      "record_id": "RECORD_000348",
+      "sample_id": "GT_SAMPLE_000348",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000091",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000241",
+      "record_id": "RECORD_000349",
+      "sample_id": "GT_SAMPLE_000349",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000091",
+      "record_type": "comment",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000242",
+      "record_id": "RECORD_000350",
+      "sample_id": "GT_SAMPLE_000350",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000243",
+      "record_id": "RECORD_000350",
+      "sample_id": "GT_SAMPLE_000350",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "post",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000244",
+      "record_id": "RECORD_000351",
+      "sample_id": "GT_SAMPLE_000351",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000245",
+      "record_id": "RECORD_000355",
+      "sample_id": "GT_SAMPLE_000355",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000246",
+      "record_id": "RECORD_000356",
+      "sample_id": "GT_SAMPLE_000356",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000247",
+      "record_id": "RECORD_000358",
+      "sample_id": "GT_SAMPLE_000358",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000248",
+      "record_id": "RECORD_000359",
+      "sample_id": "GT_SAMPLE_000359",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "topic": "D2.1_PRIVACY_DATA_SECURITY",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000249",
+      "record_id": "RECORD_000361",
+      "sample_id": "GT_SAMPLE_000361",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000250",
+      "record_id": "RECORD_000365",
+      "sample_id": "GT_SAMPLE_000365",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000093",
+      "record_type": "post",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000251",
+      "record_id": "RECORD_000366",
+      "sample_id": "GT_SAMPLE_000366",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000093",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000252",
+      "record_id": "RECORD_000366",
+      "sample_id": "GT_SAMPLE_000366",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000093",
+      "record_type": "comment",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000253",
+      "record_id": "RECORD_000367",
+      "sample_id": "GT_SAMPLE_000367",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000093",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000254",
+      "record_id": "RECORD_000368",
+      "sample_id": "GT_SAMPLE_000368",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000093",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000255",
+      "record_id": "RECORD_000371",
+      "sample_id": "GT_SAMPLE_000371",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000096",
+      "record_type": "post",
+      "topic": "A1.1_PRIVACY_INPUT_CONTENT",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000256",
+      "record_id": "RECORD_000372",
+      "sample_id": "GT_SAMPLE_000372",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "post",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000257",
+      "record_id": "RECORD_000375",
+      "sample_id": "GT_SAMPLE_000375",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000258",
+      "record_id": "RECORD_000377",
+      "sample_id": "GT_SAMPLE_000377",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000259",
+      "record_id": "RECORD_000382",
+      "sample_id": "GT_SAMPLE_000382",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000260",
+      "record_id": "RECORD_000382",
+      "sample_id": "GT_SAMPLE_000382",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000261",
+      "record_id": "RECORD_000383",
+      "sample_id": "GT_SAMPLE_000383",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000262",
+      "record_id": "RECORD_000384",
+      "sample_id": "GT_SAMPLE_000384",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000263",
+      "record_id": "RECORD_000384",
+      "sample_id": "GT_SAMPLE_000384",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000264",
+      "record_id": "RECORD_000387",
+      "sample_id": "GT_SAMPLE_000387",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000265",
+      "record_id": "RECORD_000392",
+      "sample_id": "GT_SAMPLE_000392",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000266",
+      "record_id": "RECORD_000395",
+      "sample_id": "GT_SAMPLE_000395",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "post",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000267",
+      "record_id": "RECORD_000395",
+      "sample_id": "GT_SAMPLE_000395",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "post",
+      "topic": "C2.1_PRIVACY_AGENT_AUTONOMOUS_ACTIONS",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000268",
+      "record_id": "RECORD_000396",
+      "sample_id": "GT_SAMPLE_000396",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000269",
+      "record_id": "RECORD_000399",
+      "sample_id": "GT_SAMPLE_000399",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000270",
+      "record_id": "RECORD_000403",
+      "sample_id": "GT_SAMPLE_000403",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000271",
+      "record_id": "RECORD_000403",
+      "sample_id": "GT_SAMPLE_000403",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000272",
+      "record_id": "RECORD_000405",
+      "sample_id": "GT_SAMPLE_000405",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "topic": "A1.2_PRIVACY_BEHAVIORAL_METADATA",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000273",
+      "record_id": "RECORD_000405",
+      "sample_id": "GT_SAMPLE_000405",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000274",
+      "record_id": "RECORD_000409",
+      "sample_id": "GT_SAMPLE_000409",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000101",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000275",
+      "record_id": "RECORD_000410",
+      "sample_id": "GT_SAMPLE_000410",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000101",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000276",
+      "record_id": "RECORD_000414",
+      "sample_id": "GT_SAMPLE_000414",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000102",
+      "record_type": "comment",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000277",
+      "record_id": "RECORD_000417",
+      "sample_id": "GT_SAMPLE_000417",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000102",
+      "record_type": "comment",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000278",
+      "record_id": "RECORD_000421",
+      "sample_id": "GT_SAMPLE_000421",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000105",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000279",
+      "record_id": "RECORD_000422",
+      "sample_id": "GT_SAMPLE_000422",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000106",
+      "record_type": "post",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000280",
+      "record_id": "RECORD_000422",
+      "sample_id": "GT_SAMPLE_000422",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000106",
+      "record_type": "post",
+      "topic": "C1.2_PRIVACY_MEMORY_PERSONALIZATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000281",
+      "record_id": "RECORD_000422",
+      "sample_id": "GT_SAMPLE_000422",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000106",
+      "record_type": "post",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000282",
+      "record_id": "RECORD_000422",
+      "sample_id": "GT_SAMPLE_000422",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000106",
+      "record_type": "post",
+      "topic": "A3.2_PRIVACY_DELETION_MECHANISM",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000283",
+      "record_id": "RECORD_000423",
+      "sample_id": "GT_SAMPLE_000423",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000106",
+      "record_type": "comment",
+      "topic": "A2.2_PRIVACY_MODEL_TRAINING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000284",
+      "record_id": "RECORD_000423",
+      "sample_id": "GT_SAMPLE_000423",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000106",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000285",
+      "record_id": "RECORD_000425",
+      "sample_id": "GT_SAMPLE_000425",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000107",
+      "record_type": "comment",
+      "topic": "D1.1_PRIVACY_JURISDICTION_LAW",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000286",
+      "record_id": "RECORD_000425",
+      "sample_id": "GT_SAMPLE_000425",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000107",
+      "record_type": "comment",
+      "topic": "B1.3_PRIVACY_TRANSPARENCY_DISCLOSURE",
+      "necessity": false,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000287",
+      "record_id": "RECORD_000426",
+      "sample_id": "GT_SAMPLE_000426",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000108",
+      "record_type": "post",
+      "topic": "A2.1_PRIVACY_SERVICE_PROVISION",
+      "necessity": true,
+      "gap_detected": false,
+      "gap_types": []
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000288",
+      "record_id": "RECORD_000429",
+      "sample_id": "GT_SAMPLE_000429",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000108",
+      "record_type": "comment",
+      "topic": "A2.1_PRIVACY_SERVICE_PROVISION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000289",
+      "record_id": "RECORD_000429",
+      "sample_id": "GT_SAMPLE_000429",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000108",
+      "record_type": "comment",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000290",
+      "record_id": "RECORD_000430",
+      "sample_id": "GT_SAMPLE_000430",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000109",
+      "record_type": "post",
+      "topic": "A2.1_PRIVACY_SERVICE_PROVISION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_AI_FEATURE_UNADDRESSED"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000291",
+      "record_id": "RECORD_000430",
+      "sample_id": "GT_SAMPLE_000430",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000109",
+      "record_type": "post",
+      "topic": "B1.2_PRIVACY_GRANULAR_CONTROL",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000292",
+      "record_id": "RECORD_000431",
+      "sample_id": "GT_SAMPLE_000431",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000109",
+      "record_type": "comment",
+      "topic": "C1.1_PRIVACY_OUTPUT_RISK",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000293",
+      "record_id": "RECORD_000431",
+      "sample_id": "GT_SAMPLE_000431",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000109",
+      "record_type": "comment",
+      "topic": "A4.1_PRIVACY_THIRD_PARTY_SHARING",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_EXPLICIT_POLICY_DISTRUST"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000294",
+      "record_id": "RECORD_000432",
+      "sample_id": "GT_SAMPLE_000432",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000110",
+      "record_type": "post",
+      "topic": "A3.1_PRIVACY_RETENTION_DURATION",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_DETAIL_VAGUE"
+      ]
+    },
+    {
+      "concern_instance_id": "GT_CONCERN_000295",
+      "record_id": "RECORD_000436",
+      "sample_id": "GT_SAMPLE_000436",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000110",
+      "record_type": "comment",
+      "topic": "B1.1_PRIVACY_CONSENT_MECHANISM",
+      "necessity": true,
+      "gap_detected": true,
+      "gap_types": [
+        "PRIVACY_POLICY_AWARENESS_DEFICIT"
+      ]
+    }
+  ]
+}

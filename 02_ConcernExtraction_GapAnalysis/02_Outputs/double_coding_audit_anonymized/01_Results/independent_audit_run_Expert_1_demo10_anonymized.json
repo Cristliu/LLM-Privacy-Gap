@@ -1,0 +1,181 @@
+{
+  "created_at": "2026-04-21T17:20:44.489095+00:00",
+  "updated_at": "2026-04-21T17:29:34.098782+00:00",
+  "source_file": "sampled_data_demo10.json",
+  "prompt_file": "Unified_Independent_Audit.md",
+  "total_items": 10,
+  "processed_count": 10,
+  "results": [
+    {
+      "concern_id": "ITEM_000001",
+      "item_index": 8,
+      "processed_at": "2026-04-21T17:21:21.942659+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000001",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "Retention of chat/memory data is a legitimate framing given the user explicitly asks to confirm data is stored on servers.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "G1 for vague retention and G2 for memory feature unaddressed are both defensible given policy evidence.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art. 13(2)(a) retention disclosure requirements are correctly applied to the specific facts about memory and chat data."
+      }
+    },
+    {
+      "concern_id": "ITEM_000002",
+      "item_index": 102,
+      "processed_at": "2026-04-21T17:23:31.444936+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000002",
+        "concern_audit_result": "FALSE",
+        "concern_audit_reason": "The user's central concern is government ID collection for identity verification, which is better characterized as identity/sensitive identifier collection rather than A1.1 input content (which covers prompts/files/voice/images submitted to the model). A1.1 is a stretch; the dominant issue is ID/account-level identity data collection.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy vaguely mentions identity/age info without specifying government ID handling, retention, or recipients. G1 (vague on legally required disclosure) is defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art. 13 and CPRA sensitive PI disclosure requirements are directly applicable to government ID collection; reasoning is case-specific and defensible."
+      }
+    },
+    {
+      "concern_id": "ITEM_000003",
+      "item_index": 144,
+      "processed_at": "2026-04-21T17:24:22.168097+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000003",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "C2.2 downstream integration fits concern about Health Connect integration leaking sensitive data.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy mentions health integrations and consent but lacks specifics on categories, training exclusion, retention; G1 vague is defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art.9 and state health-data laws require clear disclosure for sensitive health data processing; reasoning is case-specific."
+      }
+    },
+    {
+      "concern_id": "ITEM_000004",
+      "item_index": 154,
+      "processed_at": "2026-04-21T17:24:41.728396+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000004",
+        "concern_audit_result": "FALSE",
+        "concern_audit_reason": "This is the same user concern as the prior item but relabeled as D2.1 data security. The user's core question is about file privacy/access, not encryption or breach security specifically; A1.1 (already applied) is the dominant topic and D2.1 is a secondary framing.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Given the security framing, policy adequately discloses encryption and access controls; G6 defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "Security disclosures are present; necessity reasoning is reasonable for the security framing even if topic assignment is debatable."
+      }
+    },
+    {
+      "concern_id": "ITEM_000005",
+      "item_index": 198,
+      "processed_at": "2026-04-21T17:25:37.800541+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000005",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "User explicitly concerned about training on inputs/files; A2.2 model training is the dominant topic.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy doesn't clarify training behavior across deployment modes (API/local/third-party); G2 plus G6 reasonably capture both content and awareness aspects.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art. 13 and CCPA citations relevant; reasoning identifies specific gap regarding deployment-mode training disclosure."
+      }
+    },
+    {
+      "concern_id": "ITEM_000006",
+      "item_index": 222,
+      "processed_at": "2026-04-21T17:26:21.029718+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000006",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "Comment is about third-party hosts/APIs running the model, fitting C2.2 downstream integration concerns about who handles personal data.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy explicitly excludes downstream developer apps without clarifying DeepSeek's own role/processing in those flows; G1 vague is defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art.13-14 transparency on recipients/sources is relevant; reasoning ties to the actual policy exclusion language and is case-specific."
+      }
+    },
+    {
+      "concern_id": "ITEM_000007",
+      "item_index": 273,
+      "processed_at": "2026-04-21T17:27:41.351101+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000007",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "C1.1 output risk directly matches the user's core concern about model regurgitating prompts from another account.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy does not address memorization/regurgitation safeguards; G2 defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "Training-use and output-leakage risks are a legitimate privacy-policy topic; GDPR Arts.13–14 reasoning is relevant to disclosing training use and related risks, independent of whether the specific anecdote is verified."
+      }
+    },
+    {
+      "concern_id": "ITEM_000008",
+      "item_index": 275,
+      "processed_at": "2026-04-21T17:27:41.351114+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000008",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "A2.2 model training is the central issue in the user's AI Studio training-use concern.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Gemini Apps notice does not cover AI Studio training practices or configuration-based distinctions; G2 defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art.13 and CPRA disclosure obligations are directly relevant to training use of developer inputs."
+      }
+    },
+    {
+      "concern_id": "ITEM_000009",
+      "item_index": 295,
+      "processed_at": "2026-04-21T17:28:18.315258+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000009",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "Concern about public indexing of chat URL is reasonably framed; D2.1 acceptable though sharing/transparency is nearby.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "FAQ explicitly warns about search indexing and provides revocation; G6 defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "Reasoning correctly notes technical anti-indexing specifics aren't legally required; disclosure already adequate."
+      }
+    },
+    {
+      "concern_id": "ITEM_000010",
+      "item_index": 343,
+      "processed_at": "2026-04-21T17:29:34.098712+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000010",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "User raises data security (IDOR) concern; D2.1 is appropriate.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy provides general security language; specific IDOR mitigations not legally required, so G5 distrust is defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "Reasoning correctly notes policies need not disclose technical controls; ties to specific deletion claims user disputes."
+      }
+    }
+  ],
+  "errors": [
+    {
+      "concern_ids": [
+        "ITEM_000216",
+        "ITEM_000217",
+        "ITEM_000218",
+        "ITEM_000219",
+        "ITEM_000220",
+        "ITEM_000221",
+        "ITEM_000222",
+        "ITEM_000223",
+        "ITEM_000224",
+        "ITEM_000225"
+      ],
+      "item_indices": [
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220
+      ],
+      "failed_at": "2026-04-21T17:27:51.684883+00:00",
+      "stage": "batch",
+      "error": "[SSL: DECRYPTION_FAILED_OR_BAD_RECORD_MAC] decryption failed or bad record mac (_ssl.c:2578)"
+    }
+  ]
+}

@@ -1,0 +1,151 @@
+{
+  "created_at": "2026-04-21T17:30:14.578691+00:00",
+  "updated_at": "2026-04-21T17:38:20.038127+00:00",
+  "source_file": "sampled_data_demo10.json",
+  "prompt_file": "Unified_Independent_Audit.md",
+  "total_items": 10,
+  "processed_count": 10,
+  "results": [
+    {
+      "concern_id": "ITEM_000001",
+      "item_index": 8,
+      "processed_at": "2026-04-21T17:30:56.109892+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000001",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "User explicitly seeks confirmation that data is retained server-side; retention topic is reasonable.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Both vague retention periods for standard chats and missing Memory-specific retention disclosures are defensible gaps.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art.13(2)(a) and CCPA retention-disclosure obligations directly apply; reasoning is case-specific."
+      }
+    },
+    {
+      "concern_id": "ITEM_000002",
+      "item_index": 102,
+      "processed_at": "2026-04-21T17:33:08.343758+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000002",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "A1.1 reasonably captures concern about submitting ID/selfies (personal content) to access API; faithful to quote.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy mentions identity/age info only vaguely; G1 defensible given lack of specifics on government ID, biometrics, retention.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art.13 and CPRA sensitive PI disclosure obligations are directly relevant to ID/selfie collection; reasoning is case-specific."
+      }
+    },
+    {
+      "concern_id": "ITEM_000003",
+      "item_index": 144,
+      "processed_at": "2026-04-21T17:33:47.534012+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000003",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "Comment concerns Health Connect integration privacy; C2.2 downstream integration is appropriate.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy mentions health integrations but lacks specifics on categories, training exclusion, retention, sharing; G1 vague is defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art.9 special category data and health data laws justify specific disclosures; reasoning is case-specific."
+      }
+    },
+    {
+      "concern_id": "ITEM_000004",
+      "item_index": 154,
+      "processed_at": "2026-04-21T17:34:10.708599+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000004",
+        "concern_audit_result": "FALSE",
+        "concern_audit_reason": "Same user quote already coded under A1.1; the central concern is about uploaded content/access, not data security mechanisms specifically. D2.1 is a secondary implication, violating Rule 5 on derivative framing.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "If accepting D2.1, policy adequately discloses encryption and limited employee access; G6 defensible.",
+        "necessity_audit_result": "FALSE",
+        "necessity_audit_reason": "Because the topic assignment is a secondary framing duplicating the A1.1 item, the necessity reasoning is essentially redundant template rather than case-specific."
+      }
+    },
+    {
+      "concern_id": "ITEM_000005",
+      "item_index": 198,
+      "processed_at": "2026-04-21T17:35:01.570548+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000005",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "User explicitly concerned about training on inputs/files; A2.2 model training fits.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Deployment-mode specific training disclosure is absent; G2 plus G6 (for opt-out awareness) defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art.13 and CCPA citations support disclosure necessity of training across deployment modes; case-specific."
+      }
+    },
+    {
+      "concern_id": "ITEM_000006",
+      "item_index": 222,
+      "processed_at": "2026-04-21T17:35:39.081099+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000006",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "Comment raises downstream integration/third-party hosting risks; C2.2 fits.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy explicitly excludes downstream developer apps from coverage and doesn't clarify DeepSeek's role/sources/recipients in those flows; G1 defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art.13-14 and CCPA source/recipient disclosure requirements are appropriately cited and tied to the specific exclusion language in the policy."
+      }
+    },
+    {
+      "concern_id": "ITEM_000007",
+      "item_index": 273,
+      "processed_at": "2026-04-21T17:36:59.143612+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000007",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "C1.1 output risk appropriately captures the regurgitation-of-prompts concern described by the user.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy does not address memorization/regurgitation safeguards; G2 is defensible.",
+        "necessity_audit_result": "FALSE",
+        "necessity_audit_reason": "Necessity hinges on an unverified premise that regurgitation actually occurred; model likely hallucinated. Converting speculation into an asserted disclosure obligation violates the hard consistency rule."
+      }
+    },
+    {
+      "concern_id": "ITEM_000008",
+      "item_index": 275,
+      "processed_at": "2026-04-21T17:36:59.143622+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000008",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "A2.2 training use accurately captures the user's concern about AI Studio data being used for training.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Gemini Apps notice does not cover AI Studio training practices; G2 is defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "GDPR Art.13 and CPRA disclosure obligations for training-use purposes directly apply; reasoning is case-specific."
+      }
+    },
+    {
+      "concern_id": "ITEM_000009",
+      "item_index": 295,
+      "processed_at": "2026-04-21T17:37:06.703361+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000009",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "Concern about indexing of shared URL reasonably maps to data security/disclosure; acceptable.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "FAQs explicitly disclose indexing risk and revocation; G6 awareness deficit defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "Reasoning correctly notes transparency obligations are met and technical anti-indexing measures aren't legally required in policy."
+      }
+    },
+    {
+      "concern_id": "ITEM_000010",
+      "item_index": 343,
+      "processed_at": "2026-04-21T17:38:20.038042+00:00",
+      "parsed_result": {
+        "concern_id": "ITEM_000010",
+        "concern_audit_result": "TRUE",
+        "concern_audit_reason": "User frames an IDOR/security access-control issue; D2.1 data security is appropriate.",
+        "gap_audit_result": "TRUE",
+        "gap_audit_reason": "Policy provides general security and deletion commitments; lack of technical IDOR detail isn't a required disclosure, so G5 distrust is defensible.",
+        "necessity_audit_result": "TRUE",
+        "necessity_audit_reason": "Reasoning correctly notes privacy policies need not detail specific technical controls and user's claim is distrust of adherence."
+      }
+    }
+  ],
+  "errors": []
+}

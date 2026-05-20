@@ -1,0 +1,23 @@
+# LLM Privacy Relevance Filter - User Prompt Template
+# Purpose: Batch evaluation of multiple Reddit posts
+# Version: 2.0
+
+## Task
+Evaluate the following {batch_size} Reddit posts from **r/{subreddit}** for privacy relevance.
+
+**CRITICAL**: Only mark posts as relevant (1) if the **title OR selftext clearly discusses privacy issues specific to {subreddit}'s product**. Generic AI privacy discussions or empty content = NOT relevant (0).
+
+## Posts to Evaluate
+
+{posts_content}
+
+## Required Output (JSON only)
+```json
+{
+  "evaluations": [
+    {"post_id": "ID", "relevant": 0|1, "confidence": 0.5-1.0, "reason": "1 sentence"}
+  ]
+}
+```
+
+Return evaluations for ALL {batch_size} posts in order. Be strict - when in doubt, mark as NOT relevant (0).

@@ -1,0 +1,13 @@
+# Core pipeline dependencies imported by the Python scripts
+pandas
+tqdm
+PyYAML
+openai
+httpx
+
+# Streamlit audit interface
+streamlit
+
+# Referenced by bundled shell/batch runner environment checks
+aiohttp
+tiktoken

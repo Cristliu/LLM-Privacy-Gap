@@ -1,0 +1,3515 @@
+{
+  "metadata": {
+    "experiment": "Ground-Truth",
+    "source": "anonymized_ground_truth_flat_records",
+    "granularity": "record-level",
+    "total_records": 438,
+    "privacy_transform": "ids_anonymized_textual_evidence_removed_confidence_removed"
+  },
+  "records": [
+    {
+      "record_id": "RECORD_000001",
+      "sample_id": "GT_SAMPLE_000001",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000001",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000002",
+      "sample_id": "GT_SAMPLE_000002",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000001",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000003",
+      "sample_id": "GT_SAMPLE_000003",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000001",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000004",
+      "sample_id": "GT_SAMPLE_000004",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000001",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000005",
+      "sample_id": "GT_SAMPLE_000005",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000002",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000006",
+      "sample_id": "GT_SAMPLE_000006",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000003",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000007",
+      "sample_id": "GT_SAMPLE_000007",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000004",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000008",
+      "sample_id": "GT_SAMPLE_000008",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000005",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000009",
+      "sample_id": "GT_SAMPLE_000009",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000006",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000010",
+      "sample_id": "GT_SAMPLE_000010",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000011",
+      "sample_id": "GT_SAMPLE_000011",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000012",
+      "sample_id": "GT_SAMPLE_000012",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000013",
+      "sample_id": "GT_SAMPLE_000013",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000014",
+      "sample_id": "GT_SAMPLE_000014",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000015",
+      "sample_id": "GT_SAMPLE_000015",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000016",
+      "sample_id": "GT_SAMPLE_000016",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000017",
+      "sample_id": "GT_SAMPLE_000017",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000007",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000018",
+      "sample_id": "GT_SAMPLE_000018",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000008",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000019",
+      "sample_id": "GT_SAMPLE_000019",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000008",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000020",
+      "sample_id": "GT_SAMPLE_000020",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000008",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000021",
+      "sample_id": "GT_SAMPLE_000021",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000022",
+      "sample_id": "GT_SAMPLE_000022",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000023",
+      "sample_id": "GT_SAMPLE_000023",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000024",
+      "sample_id": "GT_SAMPLE_000024",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000025",
+      "sample_id": "GT_SAMPLE_000025",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000026",
+      "sample_id": "GT_SAMPLE_000026",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000027",
+      "sample_id": "GT_SAMPLE_000027",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000028",
+      "sample_id": "GT_SAMPLE_000028",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000029",
+      "sample_id": "GT_SAMPLE_000029",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000030",
+      "sample_id": "GT_SAMPLE_000030",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000031",
+      "sample_id": "GT_SAMPLE_000031",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000032",
+      "sample_id": "GT_SAMPLE_000032",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000033",
+      "sample_id": "GT_SAMPLE_000033",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000034",
+      "sample_id": "GT_SAMPLE_000034",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000009",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000035",
+      "sample_id": "GT_SAMPLE_000035",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000010",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000036",
+      "sample_id": "GT_SAMPLE_000036",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000010",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000037",
+      "sample_id": "GT_SAMPLE_000037",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000010",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000038",
+      "sample_id": "GT_SAMPLE_000038",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000010",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000039",
+      "sample_id": "GT_SAMPLE_000039",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000010",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000040",
+      "sample_id": "GT_SAMPLE_000040",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000010",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000041",
+      "sample_id": "GT_SAMPLE_000041",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000010",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000042",
+      "sample_id": "GT_SAMPLE_000042",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000011",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000043",
+      "sample_id": "GT_SAMPLE_000043",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000011",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000044",
+      "sample_id": "GT_SAMPLE_000044",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000011",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000045",
+      "sample_id": "GT_SAMPLE_000045",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000011",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000046",
+      "sample_id": "GT_SAMPLE_000046",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000011",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000047",
+      "sample_id": "GT_SAMPLE_000047",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000012",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000048",
+      "sample_id": "GT_SAMPLE_000048",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000012",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000049",
+      "sample_id": "GT_SAMPLE_000049",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000012",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000050",
+      "sample_id": "GT_SAMPLE_000050",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000051",
+      "sample_id": "GT_SAMPLE_000051",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000052",
+      "sample_id": "GT_SAMPLE_000052",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000053",
+      "sample_id": "GT_SAMPLE_000053",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000054",
+      "sample_id": "GT_SAMPLE_000054",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000013",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000055",
+      "sample_id": "GT_SAMPLE_000055",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000014",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000056",
+      "sample_id": "GT_SAMPLE_000056",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000014",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000057",
+      "sample_id": "GT_SAMPLE_000057",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000014",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000058",
+      "sample_id": "GT_SAMPLE_000058",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000014",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000059",
+      "sample_id": "GT_SAMPLE_000059",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000014",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000060",
+      "sample_id": "GT_SAMPLE_000060",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000015",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000061",
+      "sample_id": "GT_SAMPLE_000061",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000015",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000062",
+      "sample_id": "GT_SAMPLE_000062",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000016",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000063",
+      "sample_id": "GT_SAMPLE_000063",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000016",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000064",
+      "sample_id": "GT_SAMPLE_000064",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000016",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000065",
+      "sample_id": "GT_SAMPLE_000065",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000016",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000066",
+      "sample_id": "GT_SAMPLE_000066",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000017",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000067",
+      "sample_id": "GT_SAMPLE_000067",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000017",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000068",
+      "sample_id": "GT_SAMPLE_000068",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000017",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000069",
+      "sample_id": "GT_SAMPLE_000069",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000017",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000070",
+      "sample_id": "GT_SAMPLE_000070",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000017",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000071",
+      "sample_id": "GT_SAMPLE_000071",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000017",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000072",
+      "sample_id": "GT_SAMPLE_000072",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000018",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000073",
+      "sample_id": "GT_SAMPLE_000073",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000018",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000074",
+      "sample_id": "GT_SAMPLE_000074",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000018",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000075",
+      "sample_id": "GT_SAMPLE_000075",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000019",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000076",
+      "sample_id": "GT_SAMPLE_000076",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000020",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000077",
+      "sample_id": "GT_SAMPLE_000077",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000020",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000078",
+      "sample_id": "GT_SAMPLE_000078",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000021",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000079",
+      "sample_id": "GT_SAMPLE_000079",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000022",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000080",
+      "sample_id": "GT_SAMPLE_000080",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000022",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000081",
+      "sample_id": "GT_SAMPLE_000081",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000022",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000082",
+      "sample_id": "GT_SAMPLE_000082",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000022",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000083",
+      "sample_id": "GT_SAMPLE_000083",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000022",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000084",
+      "sample_id": "GT_SAMPLE_000084",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000085",
+      "sample_id": "GT_SAMPLE_000085",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000086",
+      "sample_id": "GT_SAMPLE_000086",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000087",
+      "sample_id": "GT_SAMPLE_000087",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000088",
+      "sample_id": "GT_SAMPLE_000088",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000089",
+      "sample_id": "GT_SAMPLE_000089",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000090",
+      "sample_id": "GT_SAMPLE_000090",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000091",
+      "sample_id": "GT_SAMPLE_000091",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000092",
+      "sample_id": "GT_SAMPLE_000092",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000093",
+      "sample_id": "GT_SAMPLE_000093",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000094",
+      "sample_id": "GT_SAMPLE_000094",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000095",
+      "sample_id": "GT_SAMPLE_000095",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000096",
+      "sample_id": "GT_SAMPLE_000096",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000023",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000097",
+      "sample_id": "GT_SAMPLE_000097",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000024",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000098",
+      "sample_id": "GT_SAMPLE_000098",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000025",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000099",
+      "sample_id": "GT_SAMPLE_000099",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000026",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000100",
+      "sample_id": "GT_SAMPLE_000100",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000026",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000101",
+      "sample_id": "GT_SAMPLE_000101",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000026",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000102",
+      "sample_id": "GT_SAMPLE_000102",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000027",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000103",
+      "sample_id": "GT_SAMPLE_000103",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000027",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000104",
+      "sample_id": "GT_SAMPLE_000104",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000027",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000105",
+      "sample_id": "GT_SAMPLE_000105",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000028",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000106",
+      "sample_id": "GT_SAMPLE_000106",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000028",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000107",
+      "sample_id": "GT_SAMPLE_000107",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000029",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000108",
+      "sample_id": "GT_SAMPLE_000108",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000029",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000109",
+      "sample_id": "GT_SAMPLE_000109",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000029",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000110",
+      "sample_id": "GT_SAMPLE_000110",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000030",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000111",
+      "sample_id": "GT_SAMPLE_000111",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000030",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000112",
+      "sample_id": "GT_SAMPLE_000112",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000113",
+      "sample_id": "GT_SAMPLE_000113",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000114",
+      "sample_id": "GT_SAMPLE_000114",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000115",
+      "sample_id": "GT_SAMPLE_000115",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000116",
+      "sample_id": "GT_SAMPLE_000116",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000117",
+      "sample_id": "GT_SAMPLE_000117",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000118",
+      "sample_id": "GT_SAMPLE_000118",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000119",
+      "sample_id": "GT_SAMPLE_000119",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000120",
+      "sample_id": "GT_SAMPLE_000120",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000121",
+      "sample_id": "GT_SAMPLE_000121",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000122",
+      "sample_id": "GT_SAMPLE_000122",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000123",
+      "sample_id": "GT_SAMPLE_000123",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000031",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000124",
+      "sample_id": "GT_SAMPLE_000124",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000032",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000125",
+      "sample_id": "GT_SAMPLE_000125",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000033",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000126",
+      "sample_id": "GT_SAMPLE_000126",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000033",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000127",
+      "sample_id": "GT_SAMPLE_000127",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000033",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000128",
+      "sample_id": "GT_SAMPLE_000128",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000033",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000129",
+      "sample_id": "GT_SAMPLE_000129",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000034",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000130",
+      "sample_id": "GT_SAMPLE_000130",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000034",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000131",
+      "sample_id": "GT_SAMPLE_000131",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000034",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000132",
+      "sample_id": "GT_SAMPLE_000132",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000034",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000133",
+      "sample_id": "GT_SAMPLE_000133",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000035",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000134",
+      "sample_id": "GT_SAMPLE_000134",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000035",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000135",
+      "sample_id": "GT_SAMPLE_000135",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000136",
+      "sample_id": "GT_SAMPLE_000136",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000137",
+      "sample_id": "GT_SAMPLE_000137",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000138",
+      "sample_id": "GT_SAMPLE_000138",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000139",
+      "sample_id": "GT_SAMPLE_000139",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000140",
+      "sample_id": "GT_SAMPLE_000140",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000141",
+      "sample_id": "GT_SAMPLE_000141",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000142",
+      "sample_id": "GT_SAMPLE_000142",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000036",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000143",
+      "sample_id": "GT_SAMPLE_000143",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000037",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000144",
+      "sample_id": "GT_SAMPLE_000144",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000037",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000145",
+      "sample_id": "GT_SAMPLE_000145",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000037",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000146",
+      "sample_id": "GT_SAMPLE_000146",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000037",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000147",
+      "sample_id": "GT_SAMPLE_000147",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000038",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000148",
+      "sample_id": "GT_SAMPLE_000148",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000039",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000149",
+      "sample_id": "GT_SAMPLE_000149",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000039",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000150",
+      "sample_id": "GT_SAMPLE_000150",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000039",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000151",
+      "sample_id": "GT_SAMPLE_000151",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000039",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000152",
+      "sample_id": "GT_SAMPLE_000152",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000153",
+      "sample_id": "GT_SAMPLE_000153",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000154",
+      "sample_id": "GT_SAMPLE_000154",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000155",
+      "sample_id": "GT_SAMPLE_000155",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000156",
+      "sample_id": "GT_SAMPLE_000156",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000157",
+      "sample_id": "GT_SAMPLE_000157",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000040",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000158",
+      "sample_id": "GT_SAMPLE_000158",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000159",
+      "sample_id": "GT_SAMPLE_000159",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000160",
+      "sample_id": "GT_SAMPLE_000160",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000161",
+      "sample_id": "GT_SAMPLE_000161",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000162",
+      "sample_id": "GT_SAMPLE_000162",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000163",
+      "sample_id": "GT_SAMPLE_000163",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000164",
+      "sample_id": "GT_SAMPLE_000164",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000165",
+      "sample_id": "GT_SAMPLE_000165",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000166",
+      "sample_id": "GT_SAMPLE_000166",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000167",
+      "sample_id": "GT_SAMPLE_000167",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000168",
+      "sample_id": "GT_SAMPLE_000168",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000169",
+      "sample_id": "GT_SAMPLE_000169",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000170",
+      "sample_id": "GT_SAMPLE_000170",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000171",
+      "sample_id": "GT_SAMPLE_000171",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000172",
+      "sample_id": "GT_SAMPLE_000172",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000173",
+      "sample_id": "GT_SAMPLE_000173",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000174",
+      "sample_id": "GT_SAMPLE_000174",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000175",
+      "sample_id": "GT_SAMPLE_000175",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000176",
+      "sample_id": "GT_SAMPLE_000176",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000177",
+      "sample_id": "GT_SAMPLE_000177",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000178",
+      "sample_id": "GT_SAMPLE_000178",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000179",
+      "sample_id": "GT_SAMPLE_000179",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000041",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000180",
+      "sample_id": "GT_SAMPLE_000180",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000181",
+      "sample_id": "GT_SAMPLE_000181",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000182",
+      "sample_id": "GT_SAMPLE_000182",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000183",
+      "sample_id": "GT_SAMPLE_000183",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000184",
+      "sample_id": "GT_SAMPLE_000184",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000185",
+      "sample_id": "GT_SAMPLE_000185",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000186",
+      "sample_id": "GT_SAMPLE_000186",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000187",
+      "sample_id": "GT_SAMPLE_000187",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000042",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000188",
+      "sample_id": "GT_SAMPLE_000188",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000043",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000189",
+      "sample_id": "GT_SAMPLE_000189",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000043",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000190",
+      "sample_id": "GT_SAMPLE_000190",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000043",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000191",
+      "sample_id": "GT_SAMPLE_000191",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000044",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000192",
+      "sample_id": "GT_SAMPLE_000192",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000044",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000193",
+      "sample_id": "GT_SAMPLE_000193",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000044",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000194",
+      "sample_id": "GT_SAMPLE_000194",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000044",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000195",
+      "sample_id": "GT_SAMPLE_000195",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000045",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000196",
+      "sample_id": "GT_SAMPLE_000196",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000046",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000197",
+      "sample_id": "GT_SAMPLE_000197",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000046",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000198",
+      "sample_id": "GT_SAMPLE_000198",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000199",
+      "sample_id": "GT_SAMPLE_000199",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000200",
+      "sample_id": "GT_SAMPLE_000200",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000201",
+      "sample_id": "GT_SAMPLE_000201",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000202",
+      "sample_id": "GT_SAMPLE_000202",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000203",
+      "sample_id": "GT_SAMPLE_000203",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000204",
+      "sample_id": "GT_SAMPLE_000204",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000205",
+      "sample_id": "GT_SAMPLE_000205",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000206",
+      "sample_id": "GT_SAMPLE_000206",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000207",
+      "sample_id": "GT_SAMPLE_000207",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000208",
+      "sample_id": "GT_SAMPLE_000208",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000209",
+      "sample_id": "GT_SAMPLE_000209",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000210",
+      "sample_id": "GT_SAMPLE_000210",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000211",
+      "sample_id": "GT_SAMPLE_000211",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000212",
+      "sample_id": "GT_SAMPLE_000212",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000213",
+      "sample_id": "GT_SAMPLE_000213",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000214",
+      "sample_id": "GT_SAMPLE_000214",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000215",
+      "sample_id": "GT_SAMPLE_000215",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000216",
+      "sample_id": "GT_SAMPLE_000216",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000217",
+      "sample_id": "GT_SAMPLE_000217",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000218",
+      "sample_id": "GT_SAMPLE_000218",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000219",
+      "sample_id": "GT_SAMPLE_000219",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000220",
+      "sample_id": "GT_SAMPLE_000220",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000047",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000221",
+      "sample_id": "GT_SAMPLE_000221",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000048",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000222",
+      "sample_id": "GT_SAMPLE_000222",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000048",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000223",
+      "sample_id": "GT_SAMPLE_000223",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000049",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000224",
+      "sample_id": "GT_SAMPLE_000224",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000049",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000225",
+      "sample_id": "GT_SAMPLE_000225",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000050",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000226",
+      "sample_id": "GT_SAMPLE_000226",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000050",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000227",
+      "sample_id": "GT_SAMPLE_000227",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000050",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000228",
+      "sample_id": "GT_SAMPLE_000228",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000051",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000229",
+      "sample_id": "GT_SAMPLE_000229",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000052",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000230",
+      "sample_id": "GT_SAMPLE_000230",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000052",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000231",
+      "sample_id": "GT_SAMPLE_000231",
+      "provider": "chatgpt",
+      "thread_id": "Chatgpt_POST_000052",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000232",
+      "sample_id": "GT_SAMPLE_000232",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000233",
+      "sample_id": "GT_SAMPLE_000233",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000234",
+      "sample_id": "GT_SAMPLE_000234",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000235",
+      "sample_id": "GT_SAMPLE_000235",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000236",
+      "sample_id": "GT_SAMPLE_000236",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000237",
+      "sample_id": "GT_SAMPLE_000237",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000053",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000238",
+      "sample_id": "GT_SAMPLE_000238",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000054",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000239",
+      "sample_id": "GT_SAMPLE_000239",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000054",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000240",
+      "sample_id": "GT_SAMPLE_000240",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000054",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000241",
+      "sample_id": "GT_SAMPLE_000241",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000054",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000242",
+      "sample_id": "GT_SAMPLE_000242",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000054",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000243",
+      "sample_id": "GT_SAMPLE_000243",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000054",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000244",
+      "sample_id": "GT_SAMPLE_000244",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000054",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000245",
+      "sample_id": "GT_SAMPLE_000245",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000055",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000246",
+      "sample_id": "GT_SAMPLE_000246",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000056",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000247",
+      "sample_id": "GT_SAMPLE_000247",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000056",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000248",
+      "sample_id": "GT_SAMPLE_000248",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000057",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000249",
+      "sample_id": "GT_SAMPLE_000249",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000058",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000250",
+      "sample_id": "GT_SAMPLE_000250",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000058",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000251",
+      "sample_id": "GT_SAMPLE_000251",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000058",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000252",
+      "sample_id": "GT_SAMPLE_000252",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000058",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000253",
+      "sample_id": "GT_SAMPLE_000253",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000058",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000254",
+      "sample_id": "GT_SAMPLE_000254",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000059",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000255",
+      "sample_id": "GT_SAMPLE_000255",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000060",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000256",
+      "sample_id": "GT_SAMPLE_000256",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000060",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000257",
+      "sample_id": "GT_SAMPLE_000257",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000060",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000258",
+      "sample_id": "GT_SAMPLE_000258",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000061",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000259",
+      "sample_id": "GT_SAMPLE_000259",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000062",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000260",
+      "sample_id": "GT_SAMPLE_000260",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000062",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000261",
+      "sample_id": "GT_SAMPLE_000261",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000062",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000262",
+      "sample_id": "GT_SAMPLE_000262",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000062",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000263",
+      "sample_id": "GT_SAMPLE_000263",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000062",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000264",
+      "sample_id": "GT_SAMPLE_000264",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000062",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000265",
+      "sample_id": "GT_SAMPLE_000265",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000062",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000266",
+      "sample_id": "GT_SAMPLE_000266",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000063",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000267",
+      "sample_id": "GT_SAMPLE_000267",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000064",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000268",
+      "sample_id": "GT_SAMPLE_000268",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000064",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000269",
+      "sample_id": "GT_SAMPLE_000269",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000064",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000270",
+      "sample_id": "GT_SAMPLE_000270",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000064",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000271",
+      "sample_id": "GT_SAMPLE_000271",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000064",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000272",
+      "sample_id": "GT_SAMPLE_000272",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000065",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000273",
+      "sample_id": "GT_SAMPLE_000273",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000066",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000274",
+      "sample_id": "GT_SAMPLE_000274",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000066",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000275",
+      "sample_id": "GT_SAMPLE_000275",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000067",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000276",
+      "sample_id": "GT_SAMPLE_000276",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000068",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000277",
+      "sample_id": "GT_SAMPLE_000277",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000069",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000278",
+      "sample_id": "GT_SAMPLE_000278",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000069",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000279",
+      "sample_id": "GT_SAMPLE_000279",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000069",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000280",
+      "sample_id": "GT_SAMPLE_000280",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000069",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000281",
+      "sample_id": "GT_SAMPLE_000281",
+      "provider": "claude",
+      "thread_id": "Claude_POST_000070",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000282",
+      "sample_id": "GT_SAMPLE_000282",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000071",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000283",
+      "sample_id": "GT_SAMPLE_000283",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000071",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000284",
+      "sample_id": "GT_SAMPLE_000284",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000071",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000285",
+      "sample_id": "GT_SAMPLE_000285",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000071",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000286",
+      "sample_id": "GT_SAMPLE_000286",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000072",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000287",
+      "sample_id": "GT_SAMPLE_000287",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000073",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000288",
+      "sample_id": "GT_SAMPLE_000288",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000074",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000289",
+      "sample_id": "GT_SAMPLE_000289",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000074",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000290",
+      "sample_id": "GT_SAMPLE_000290",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000074",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000291",
+      "sample_id": "GT_SAMPLE_000291",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000292",
+      "sample_id": "GT_SAMPLE_000292",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000293",
+      "sample_id": "GT_SAMPLE_000293",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000294",
+      "sample_id": "GT_SAMPLE_000294",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000295",
+      "sample_id": "GT_SAMPLE_000295",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000296",
+      "sample_id": "GT_SAMPLE_000296",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000297",
+      "sample_id": "GT_SAMPLE_000297",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000075",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000298",
+      "sample_id": "GT_SAMPLE_000298",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000076",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000299",
+      "sample_id": "GT_SAMPLE_000299",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000076",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000300",
+      "sample_id": "GT_SAMPLE_000300",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000077",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000301",
+      "sample_id": "GT_SAMPLE_000301",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000078",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000302",
+      "sample_id": "GT_SAMPLE_000302",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000079",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000303",
+      "sample_id": "GT_SAMPLE_000303",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000080",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000304",
+      "sample_id": "GT_SAMPLE_000304",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000081",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000305",
+      "sample_id": "GT_SAMPLE_000305",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000081",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000306",
+      "sample_id": "GT_SAMPLE_000306",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000081",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000307",
+      "sample_id": "GT_SAMPLE_000307",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000081",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000308",
+      "sample_id": "GT_SAMPLE_000308",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000081",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000309",
+      "sample_id": "GT_SAMPLE_000309",
+      "provider": "gemini",
+      "thread_id": "Gemini_POST_000081",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000310",
+      "sample_id": "GT_SAMPLE_000310",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000082",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000311",
+      "sample_id": "GT_SAMPLE_000311",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000083",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000312",
+      "sample_id": "GT_SAMPLE_000312",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000083",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000313",
+      "sample_id": "GT_SAMPLE_000313",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000083",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000314",
+      "sample_id": "GT_SAMPLE_000314",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000083",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000315",
+      "sample_id": "GT_SAMPLE_000315",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000084",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000316",
+      "sample_id": "GT_SAMPLE_000316",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000084",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000317",
+      "sample_id": "GT_SAMPLE_000317",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000084",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000318",
+      "sample_id": "GT_SAMPLE_000318",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000084",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000319",
+      "sample_id": "GT_SAMPLE_000319",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000084",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000320",
+      "sample_id": "GT_SAMPLE_000320",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000085",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000321",
+      "sample_id": "GT_SAMPLE_000321",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000085",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000322",
+      "sample_id": "GT_SAMPLE_000322",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000085",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000323",
+      "sample_id": "GT_SAMPLE_000323",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000085",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000324",
+      "sample_id": "GT_SAMPLE_000324",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000085",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000325",
+      "sample_id": "GT_SAMPLE_000325",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000086",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000326",
+      "sample_id": "GT_SAMPLE_000326",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000087",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000327",
+      "sample_id": "GT_SAMPLE_000327",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000328",
+      "sample_id": "GT_SAMPLE_000328",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000329",
+      "sample_id": "GT_SAMPLE_000329",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000330",
+      "sample_id": "GT_SAMPLE_000330",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000331",
+      "sample_id": "GT_SAMPLE_000331",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000332",
+      "sample_id": "GT_SAMPLE_000332",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000333",
+      "sample_id": "GT_SAMPLE_000333",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000088",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000334",
+      "sample_id": "GT_SAMPLE_000334",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000089",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000335",
+      "sample_id": "GT_SAMPLE_000335",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000336",
+      "sample_id": "GT_SAMPLE_000336",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000337",
+      "sample_id": "GT_SAMPLE_000337",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000338",
+      "sample_id": "GT_SAMPLE_000338",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000339",
+      "sample_id": "GT_SAMPLE_000339",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000340",
+      "sample_id": "GT_SAMPLE_000340",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000341",
+      "sample_id": "GT_SAMPLE_000341",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000342",
+      "sample_id": "GT_SAMPLE_000342",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000343",
+      "sample_id": "GT_SAMPLE_000343",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000344",
+      "sample_id": "GT_SAMPLE_000344",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000345",
+      "sample_id": "GT_SAMPLE_000345",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000346",
+      "sample_id": "GT_SAMPLE_000346",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000347",
+      "sample_id": "GT_SAMPLE_000347",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000090",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000348",
+      "sample_id": "GT_SAMPLE_000348",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000091",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000349",
+      "sample_id": "GT_SAMPLE_000349",
+      "provider": "deepseek",
+      "thread_id": "Deepseek_POST_000091",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000350",
+      "sample_id": "GT_SAMPLE_000350",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000351",
+      "sample_id": "GT_SAMPLE_000351",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000352",
+      "sample_id": "GT_SAMPLE_000352",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000353",
+      "sample_id": "GT_SAMPLE_000353",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000354",
+      "sample_id": "GT_SAMPLE_000354",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000355",
+      "sample_id": "GT_SAMPLE_000355",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000356",
+      "sample_id": "GT_SAMPLE_000356",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000357",
+      "sample_id": "GT_SAMPLE_000357",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000358",
+      "sample_id": "GT_SAMPLE_000358",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000359",
+      "sample_id": "GT_SAMPLE_000359",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000360",
+      "sample_id": "GT_SAMPLE_000360",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000361",
+      "sample_id": "GT_SAMPLE_000361",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000362",
+      "sample_id": "GT_SAMPLE_000362",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000363",
+      "sample_id": "GT_SAMPLE_000363",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000364",
+      "sample_id": "GT_SAMPLE_000364",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000092",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000365",
+      "sample_id": "GT_SAMPLE_000365",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000093",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000366",
+      "sample_id": "GT_SAMPLE_000366",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000093",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000367",
+      "sample_id": "GT_SAMPLE_000367",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000093",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000368",
+      "sample_id": "GT_SAMPLE_000368",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000093",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000369",
+      "sample_id": "GT_SAMPLE_000369",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000094",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000370",
+      "sample_id": "GT_SAMPLE_000370",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000095",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000371",
+      "sample_id": "GT_SAMPLE_000371",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000096",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000372",
+      "sample_id": "GT_SAMPLE_000372",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000373",
+      "sample_id": "GT_SAMPLE_000373",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000374",
+      "sample_id": "GT_SAMPLE_000374",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000375",
+      "sample_id": "GT_SAMPLE_000375",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000376",
+      "sample_id": "GT_SAMPLE_000376",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000377",
+      "sample_id": "GT_SAMPLE_000377",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000378",
+      "sample_id": "GT_SAMPLE_000378",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000379",
+      "sample_id": "GT_SAMPLE_000379",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000380",
+      "sample_id": "GT_SAMPLE_000380",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000381",
+      "sample_id": "GT_SAMPLE_000381",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000382",
+      "sample_id": "GT_SAMPLE_000382",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000383",
+      "sample_id": "GT_SAMPLE_000383",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000384",
+      "sample_id": "GT_SAMPLE_000384",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000385",
+      "sample_id": "GT_SAMPLE_000385",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000386",
+      "sample_id": "GT_SAMPLE_000386",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000387",
+      "sample_id": "GT_SAMPLE_000387",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000388",
+      "sample_id": "GT_SAMPLE_000388",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000389",
+      "sample_id": "GT_SAMPLE_000389",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000390",
+      "sample_id": "GT_SAMPLE_000390",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000391",
+      "sample_id": "GT_SAMPLE_000391",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000392",
+      "sample_id": "GT_SAMPLE_000392",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000393",
+      "sample_id": "GT_SAMPLE_000393",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000097",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000394",
+      "sample_id": "GT_SAMPLE_000394",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000098",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000395",
+      "sample_id": "GT_SAMPLE_000395",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000396",
+      "sample_id": "GT_SAMPLE_000396",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000397",
+      "sample_id": "GT_SAMPLE_000397",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000398",
+      "sample_id": "GT_SAMPLE_000398",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000399",
+      "sample_id": "GT_SAMPLE_000399",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000400",
+      "sample_id": "GT_SAMPLE_000400",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000401",
+      "sample_id": "GT_SAMPLE_000401",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000402",
+      "sample_id": "GT_SAMPLE_000402",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000403",
+      "sample_id": "GT_SAMPLE_000403",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000404",
+      "sample_id": "GT_SAMPLE_000404",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000405",
+      "sample_id": "GT_SAMPLE_000405",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000406",
+      "sample_id": "GT_SAMPLE_000406",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000407",
+      "sample_id": "GT_SAMPLE_000407",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000099",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000408",
+      "sample_id": "GT_SAMPLE_000408",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000100",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000409",
+      "sample_id": "GT_SAMPLE_000409",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000101",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000410",
+      "sample_id": "GT_SAMPLE_000410",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000101",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000411",
+      "sample_id": "GT_SAMPLE_000411",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000101",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000412",
+      "sample_id": "GT_SAMPLE_000412",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000102",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000413",
+      "sample_id": "GT_SAMPLE_000413",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000102",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000414",
+      "sample_id": "GT_SAMPLE_000414",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000102",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000415",
+      "sample_id": "GT_SAMPLE_000415",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000102",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000416",
+      "sample_id": "GT_SAMPLE_000416",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000102",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000417",
+      "sample_id": "GT_SAMPLE_000417",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000102",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000418",
+      "sample_id": "GT_SAMPLE_000418",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000102",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000419",
+      "sample_id": "GT_SAMPLE_000419",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000103",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000420",
+      "sample_id": "GT_SAMPLE_000420",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000104",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000421",
+      "sample_id": "GT_SAMPLE_000421",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000105",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000422",
+      "sample_id": "GT_SAMPLE_000422",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000106",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000423",
+      "sample_id": "GT_SAMPLE_000423",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000106",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000424",
+      "sample_id": "GT_SAMPLE_000424",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000107",
+      "record_type": "post",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000425",
+      "sample_id": "GT_SAMPLE_000425",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000107",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000426",
+      "sample_id": "GT_SAMPLE_000426",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000108",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000427",
+      "sample_id": "GT_SAMPLE_000427",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000108",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000428",
+      "sample_id": "GT_SAMPLE_000428",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000108",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000429",
+      "sample_id": "GT_SAMPLE_000429",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000108",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000430",
+      "sample_id": "GT_SAMPLE_000430",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000109",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000431",
+      "sample_id": "GT_SAMPLE_000431",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000109",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000432",
+      "sample_id": "GT_SAMPLE_000432",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000110",
+      "record_type": "post",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000433",
+      "sample_id": "GT_SAMPLE_000433",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000110",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000434",
+      "sample_id": "GT_SAMPLE_000434",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000110",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000435",
+      "sample_id": "GT_SAMPLE_000435",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000110",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000436",
+      "sample_id": "GT_SAMPLE_000436",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000110",
+      "record_type": "comment",
+      "concern_detection": true
+    },
+    {
+      "record_id": "RECORD_000437",
+      "sample_id": "GT_SAMPLE_000437",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000110",
+      "record_type": "comment",
+      "concern_detection": false
+    },
+    {
+      "record_id": "RECORD_000438",
+      "sample_id": "GT_SAMPLE_000438",
+      "provider": "grok",
+      "thread_id": "Grok_POST_000110",
+      "record_type": "comment",
+      "concern_detection": false
+    }
+  ]
+}
