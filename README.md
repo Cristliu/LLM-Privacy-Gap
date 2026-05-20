@@ -8,6 +8,15 @@
 
 LLMPrivacyGap is a project for exploring privacy gaps between users' privacy concerns in LLM communities and the practical coverage of providers' privacy policies. It includes analysis scripts, prompts, developed taxonomies, configuration files, privacy-preserving demo data, ground-truth artifacts, expert-review outputs, and confusion-matrix reports.
 
+> [!NOTE]
+> This repository has been archived on Zenodo.
+>
+>
+> DOI: `10.5281/zenodo.20310585`
+>
+>
+> Permanent link: https://doi.org/10.5281/zenodo.20310585
+
 > [!IMPORTANT]
 > Raw user-generated Reddit content is not included in this public release. Demo source records and user-origin excerpts are anonymized, rewritten, or redacted for privacy protection.
 
