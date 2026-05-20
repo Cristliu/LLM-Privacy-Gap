@@ -4,9 +4,9 @@
 
 # LLMPrivacyGap
 
-**What Users Ask, Policies Miss: Unveiling the Gap Between Community-Expressed Privacy Concerns and LLM Provider Policies**
+**[USENIX Security 2026] What Users Ask, Policies Miss: Unveiling the Gap Between Community-Expressed Privacy Concerns and LLM Provider Policies**
 
-LLMPrivacyGap is the public artifact for studying privacy gaps between what users ask in LLM communities and what provider privacy policies actually cover. It includes runnable analysis scripts, prompts, configuration files, privacy-preserving demo data, ground-truth artifacts, expert-review outputs, and confusion-matrix reports.
+LLMPrivacyGap is a project for exploring privacy gaps between users' privacy concerns in LLM communities and the practical coverage of providers' privacy policies. It includes analysis scripts, prompts, developed taxonomies, configuration files, privacy-preserving demo data, ground-truth artifacts, expert-review outputs, and confusion-matrix reports.
 
 > [!IMPORTANT]
 > Raw user-generated Reddit content is not included in this public release. Demo source records and user-origin excerpts are anonymized, rewritten, or redacted for privacy protection.
