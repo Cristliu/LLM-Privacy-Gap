@@ -147,14 +147,14 @@ Useful options:
 ### Privacy Topics
 
 <figure>
-  <img src="02_ConcernExtraction_GapAnalysis/03_Taxonomy%20of%20privacy%20topics%20(privacy%20concerns)/Table%20:%20Taxonomy%20of%20privacy%20topics%20(privacy%20concerns).png" alt="Table: Taxonomy of privacy topics (privacy concerns)." width="100%">
+  <img src="02_ConcernExtraction_GapAnalysis/03_Taxonomy_of%20privacy%20topics%20(privacy%20concerns)/Table_Taxonomy%20of%20privacy%20topics%20(privacy%20concerns).png" alt="Table: Taxonomy of privacy topics (privacy concerns)." width="100%">
   <figcaption>This table operationalizes the privacy concern taxonomy by providing formal definitions, classification criteria, and representative examples for each topic category. This structured specification ensures consistent interpretation of user-expressed concerns across annotators and supports reproducible categorization within the LLM-assisted extraction pipeline.</figcaption>
 </figure>
 
 ### Privacy Policy Gaps
 
 <figure>
-  <img src="02_ConcernExtraction_GapAnalysis/04_Taxonomy%20of%20privacy%20policy%20gaps/Table%20:%20Taxonomy%20of%20privacy%20policy%20gaps.png" alt="Table: Taxonomy of privacy policy gaps." width="100%">
+  <img src="02_ConcernExtraction_GapAnalysis/04_Taxonomy_of%20privacy%20policy%20gaps/Table_Taxonomy%20of%20privacy%20policy%20gaps.png" alt="Table: Taxonomy of privacy policy gaps." width="100%">
   <figcaption>This table formalizes the privacy gap taxonomy by detailing classification rules, decision boundaries, and illustrative cases for each gap type. These specifications guide systematic gap identification and minimize ambiguity during automated and expert validation stages.</figcaption>
 </figure>
 
